@@ -1,0 +1,40 @@
+<ion-header [translucent]="true">
+  <ion-toolbar class="toolbar">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/menu-login"></ion-back-button>
+    </ion-buttons>
+    <ion-title class="title">
+     LOGIN
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <div class="content">
+    <img class="image3" src="https://media.istockphoto.com/id/1337144146/vector/default-avatar-profile-icon-vector.jpg?s=612x612&w=0&k=20&c=BIbFwuv7FxTWvh5S3vB6bkT0Qv8Vn8N5Ffseq84ClGI="/>
+  </div>
+  
+  <div class="centro">
+
+  <ion-col size="12">
+  <ion-input
+  placeholder="Seu email"
+  type="email"
+  fill="outline"
+  label="EMAIL"
+  labelPlacement="floating"   
+  errorText=""
+  ngModel
+  email></ion-input>
+  </ion-col>
+
+  <ion-col size="12">
+  <ion-input label="SENHA" labelPlacement="floating" placeholder="Senha" type="password" fill="outline" maxlength="50"></ion-input>
+  </ion-col>
+    <ion-button  class="button3"expand="block" href="home">ENTRAR</ion-button>
+</div>
+
+ 
+
+</ion-content>
